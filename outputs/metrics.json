@@ -1,0 +1,354 @@
+{
+ "provenance": {
+  "source": "MODIS MOD13Q1/MYD13Q1 Collection 6.1 (250 m, 16-day VI), Microsoft Planetary Computer STAC",
+  "stac_collection": "modis-13Q1-061",
+  "period": "2023-01 through 2025-12",
+  "data_gap": "No composites with start dates 2025-07 through 2025-10 exist in the collection (verified collection-wide at access time); 2024 is the last complete growing season, 2025 metrics are partial (onset only).",
+  "anomaly_reference_year": 2024,
+  "access_date": "2026-10-07",
+  "districts": [
+   "Tamale",
+   "Savelugu",
+   "Tolon",
+   "Yendi",
+   "West Mamprusi",
+   "Bawku",
+   "Wa Municipal",
+   "Bole"
+  ],
+  "n_districts": 8,
+  "masking": "pixel_reliability in {0,1} (good/marginal); scale 0.0001",
+  "compositing": "monthly median of 16-day composites",
+  "climatology_note": "3-year baseline (2023-2025); short but documented"
+ },
+ "season_metrics": {
+  "Bawku": {
+   "2023": {
+    "n_months_valid": 12,
+    "season_complete": true,
+    "onset_month": 6,
+    "peak_month": 9,
+    "peak_ndvi": 0.606,
+    "decay_month": 11,
+    "season_length_months": 6,
+    "may_oct_ndvi_sum": 2.7694,
+    "season_integral": 1.5417,
+    "annual_min": 0.214,
+    "annual_max": 0.606
+   },
+   "2024": {
+    "n_months_valid": 12,
+    "season_complete": true,
+    "onset_month": 6,
+    "peak_month": 9,
+    "peak_ndvi": 0.6506,
+    "decay_month": 10,
+    "season_length_months": 5,
+    "may_oct_ndvi_sum": 2.7198,
+    "season_integral": 1.5011,
+    "annual_min": 0.2002,
+    "annual_max": 0.6506
+   },
+   "2025": {
+    "n_months_valid": 8,
+    "season_complete": false,
+    "onset_month": 5,
+    "peak_month": null,
+    "peak_ndvi": null,
+    "decay_month": null,
+    "season_length_months": null,
+    "may_oct_ndvi_sum": 0.5675,
+    "season_integral": null,
+    "annual_min": 0.2,
+    "annual_max": 0.3286
+   }
+  },
+  "Bole": {
+   "2023": {
+    "n_months_valid": 12,
+    "season_complete": true,
+    "onset_month": 4,
+    "peak_month": 7,
+    "peak_ndvi": 0.7447,
+    "decay_month": 12,
+    "season_length_months": 9,
+    "may_oct_ndvi_sum": 4.2882,
+    "season_integral": 3.0508,
+    "annual_min": 0.3171,
+    "annual_max": 0.7447
+   },
+   "2024": {
+    "n_months_valid": 12,
+    "season_complete": true,
+    "onset_month": 3,
+    "peak_month": 9,
+    "peak_ndvi": 0.7497,
+    "decay_month": 11,
+    "season_length_months": 9,
+    "may_oct_ndvi_sum": 4.241,
+    "season_integral": 3.0335,
+    "annual_min": 0.3119,
+    "annual_max": 0.7497
+   },
+   "2025": {
+    "n_months_valid": 8,
+    "season_complete": false,
+    "onset_month": 3,
+    "peak_month": null,
+    "peak_ndvi": null,
+    "decay_month": null,
+    "season_length_months": null,
+    "may_oct_ndvi_sum": 1.3201,
+    "season_integral": null,
+    "annual_min": 0.2956,
+    "annual_max": 0.7032
+   }
+  },
+  "Savelugu": {
+   "2023": {
+    "n_months_valid": 12,
+    "season_complete": true,
+    "onset_month": 4,
+    "peak_month": 10,
+    "peak_ndvi": 0.6165,
+    "decay_month": 11,
+    "season_length_months": 8,
+    "may_oct_ndvi_sum": 3.3529,
+    "season_integral": 2.2672,
+    "annual_min": 0.2369,
+    "annual_max": 0.6165
+   },
+   "2024": {
+    "n_months_valid": 12,
+    "season_complete": true,
+    "onset_month": 6,
+    "peak_month": 9,
+    "peak_ndvi": 0.6404,
+    "decay_month": 12,
+    "season_length_months": 7,
+    "may_oct_ndvi_sum": 3.0927,
+    "season_integral": 2.0277,
+    "annual_min": 0.2239,
+    "annual_max": 0.6404
+   },
+   "2025": {
+    "n_months_valid": 8,
+    "season_complete": false,
+    "onset_month": 4,
+    "peak_month": null,
+    "peak_ndvi": null,
+    "decay_month": null,
+    "season_length_months": null,
+    "may_oct_ndvi_sum": 0.8693,
+    "season_integral": null,
+    "annual_min": 0.2259,
+    "annual_max": 0.4698
+   }
+  },
+  "Tamale": {
+   "2023": {
+    "n_months_valid": 12,
+    "season_complete": true,
+    "onset_month": 4,
+    "peak_month": 8,
+    "peak_ndvi": 0.6684,
+    "decay_month": 11,
+    "season_length_months": 8,
+    "may_oct_ndvi_sum": 3.4646,
+    "season_integral": 2.5281,
+    "annual_min": 0.228,
+    "annual_max": 0.6684
+   },
+   "2024": {
+    "n_months_valid": 12,
+    "season_complete": true,
+    "onset_month": 6,
+    "peak_month": 9,
+    "peak_ndvi": 0.6705,
+    "decay_month": 12,
+    "season_length_months": 7,
+    "may_oct_ndvi_sum": 3.3255,
+    "season_integral": 2.2377,
+    "annual_min": 0.226,
+    "annual_max": 0.6705
+   },
+   "2025": {
+    "n_months_valid": 8,
+    "season_complete": false,
+    "onset_month": 5,
+    "peak_month": null,
+    "peak_ndvi": null,
+    "decay_month": null,
+    "season_length_months": null,
+    "may_oct_ndvi_sum": 0.9255,
+    "season_integral": null,
+    "annual_min": 0.213,
+    "annual_max": 0.506
+   }
+  },
+  "Tolon": {
+   "2023": {
+    "n_months_valid": 12,
+    "season_complete": true,
+    "onset_month": 5,
+    "peak_month": 9,
+    "peak_ndvi": 0.6483,
+    "decay_month": 11,
+    "season_length_months": 7,
+    "may_oct_ndvi_sum": 3.5253,
+    "season_integral": 2.2543,
+    "annual_min": 0.2483,
+    "annual_max": 0.6483
+   },
+   "2024": {
+    "n_months_valid": 12,
+    "season_complete": true,
+    "onset_month": 5,
+    "peak_month": 9,
+    "peak_ndvi": 0.6768,
+    "decay_month": 12,
+    "season_length_months": 8,
+    "may_oct_ndvi_sum": 3.387,
+    "season_integral": 2.294,
+    "annual_min": 0.2364,
+    "annual_max": 0.6768
+   },
+   "2025": {
+    "n_months_valid": 8,
+    "season_complete": false,
+    "onset_month": 5,
+    "peak_month": null,
+    "peak_ndvi": null,
+    "decay_month": null,
+    "season_length_months": null,
+    "may_oct_ndvi_sum": 0.9407,
+    "season_integral": null,
+    "annual_min": 0.237,
+    "annual_max": 0.535
+   }
+  },
+  "Wa Municipal": {
+   "2023": {
+    "n_months_valid": 12,
+    "season_complete": true,
+    "onset_month": 4,
+    "peak_month": 9,
+    "peak_ndvi": 0.6757,
+    "decay_month": 11,
+    "season_length_months": 8,
+    "may_oct_ndvi_sum": 3.6408,
+    "season_integral": 2.2869,
+    "annual_min": 0.2744,
+    "annual_max": 0.6757
+   },
+   "2024": {
+    "n_months_valid": 12,
+    "season_complete": true,
+    "onset_month": 6,
+    "peak_month": 9,
+    "peak_ndvi": 0.706,
+    "decay_month": 11,
+    "season_length_months": 6,
+    "may_oct_ndvi_sum": 3.2956,
+    "season_integral": 1.7032,
+    "annual_min": 0.2717,
+    "annual_max": 0.706
+   },
+   "2025": {
+    "n_months_valid": 8,
+    "season_complete": false,
+    "onset_month": 4,
+    "peak_month": null,
+    "peak_ndvi": null,
+    "decay_month": null,
+    "season_length_months": null,
+    "may_oct_ndvi_sum": 0.9189,
+    "season_integral": null,
+    "annual_min": 0.2619,
+    "annual_max": 0.4957
+   }
+  },
+  "West Mamprusi": {
+   "2023": {
+    "n_months_valid": 12,
+    "season_complete": true,
+    "onset_month": 5,
+    "peak_month": 9,
+    "peak_ndvi": 0.6284,
+    "decay_month": 11,
+    "season_length_months": 7,
+    "may_oct_ndvi_sum": 3.2465,
+    "season_integral": 1.9458,
+    "annual_min": 0.246,
+    "annual_max": 0.6284
+   },
+   "2024": {
+    "n_months_valid": 12,
+    "season_complete": true,
+    "onset_month": 6,
+    "peak_month": 9,
+    "peak_ndvi": 0.6707,
+    "decay_month": 12,
+    "season_length_months": 7,
+    "may_oct_ndvi_sum": 3.1315,
+    "season_integral": 2.0105,
+    "annual_min": 0.2302,
+    "annual_max": 0.6707
+   },
+   "2025": {
+    "n_months_valid": 8,
+    "season_complete": false,
+    "onset_month": 5,
+    "peak_month": null,
+    "peak_ndvi": null,
+    "decay_month": null,
+    "season_length_months": null,
+    "may_oct_ndvi_sum": 0.7651,
+    "season_integral": null,
+    "annual_min": 0.2437,
+    "annual_max": 0.4409
+   }
+  },
+  "Yendi": {
+   "2023": {
+    "n_months_valid": 12,
+    "season_complete": true,
+    "onset_month": 5,
+    "peak_month": 9,
+    "peak_ndvi": 0.7075,
+    "decay_month": 12,
+    "season_length_months": 8,
+    "may_oct_ndvi_sum": 3.5706,
+    "season_integral": 2.4765,
+    "annual_min": 0.2437,
+    "annual_max": 0.7075
+   },
+   "2024": {
+    "n_months_valid": 12,
+    "season_complete": true,
+    "onset_month": 5,
+    "peak_month": 9,
+    "peak_ndvi": 0.692,
+    "decay_month": 12,
+    "season_length_months": 8,
+    "may_oct_ndvi_sum": 3.6446,
+    "season_integral": 2.5415,
+    "annual_min": 0.2426,
+    "annual_max": 0.692
+   },
+   "2025": {
+    "n_months_valid": 8,
+    "season_complete": false,
+    "onset_month": 4,
+    "peak_month": null,
+    "peak_ndvi": null,
+    "decay_month": null,
+    "season_length_months": null,
+    "may_oct_ndvi_sum": 0.9762,
+    "season_integral": null,
+    "annual_min": 0.2334,
+    "annual_max": 0.531
+   }
+  }
+ }
+}
